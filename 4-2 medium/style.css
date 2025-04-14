@@ -1,0 +1,43 @@
+* {
+font-family: "Open Sans";
+color: #000000;
+
+}
+h1{
+    font-size: 88px;
+}
+h2{
+    font-size: 72px;
+}
+p{
+    font-size: 24px;
+    line-height: 32px;
+}
+.company{
+    padding: 120px 0 120px 0;
+}
+.company.about h3{
+    font-size: 32px;
+}
+
+.card{
+    padding: 32px;
+    border: 5px solid #d9d9d9;
+    margin:32px;
+    width: 600px;
+}
+.card-text h2{
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 500;
+}
+.card-text p{
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.right-course-section img{
+    height: 500px;
+    width: 500px;
+    border-radius: 12px;
+}
