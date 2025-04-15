@@ -1,0 +1,98 @@
+* {
+font-family: "Open Sans";
+color: #000000;
+
+header{
+    background-color: rgb(255, 155, 6);
+}
+}
+h1{
+    font-size: 88px;
+}
+h2{
+    font-size: 72px;
+}
+p{
+    font-size: 24px;
+    line-height: 32px;
+}
+.company{
+    padding: 120px 0 120px 0;
+}
+.company.about h3{
+    font-size: 32px;
+}
+
+.card{
+    
+    padding: 32px;
+    border: 1px solid #d9d9d9;
+    margin:32px;
+    width: 600px;
+}
+.card-title h2{
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 500;
+    color:#eb5d18;
+}
+
+.card-text p{
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.right-course-section img{
+    height: 500px;
+    width: 500px;
+    border-radius: 12px;
+    margin-left: 50px;
+}
+.right-course-section{
+    display: flex;
+}
+.left-course-section h1{
+    color:#eb5d18;
+}
+
+.company h1{
+    color:#eb5d18;
+}
+
+.contacts.section h1{
+    color:#eb5d18;
+}
+.contacts.section h2{
+    color:#eb5d18;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.right-article{
+    width: 200px;
+}
+.left-cont-company{
+    width: 100%;
+}
+.card-container{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+.contacts.section{
+    display: flex;
+}
+.contacts-about{
+    width: 50%;
+}
+.contacts-map{
+    width: 50%;
+    display: flex;
+    margin-left:50px;
+    align-items: center;
+    justify-content: center;
+}
