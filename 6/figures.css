@@ -1,0 +1,117 @@
+/* Фигуры */
+.card-shape {
+    width: 100px;
+    height: 100px;
+    z-index: 0;
+    position: absolute;
+}
+/* Первая*/
+.card-shape.diamond.first{
+    top: 0;
+    right: 100px;
+}
+.card-shape.diamond.second{
+    top: 100px;
+    right: 100px;
+}
+.card-shape.diamond.third{
+    top: 100px;
+    right: 0px;
+}
+.card-shape.diamond.fourth{
+    top: 200px;
+    right: 0px;
+}
+/* Вторая */
+.card-shape.arrow.first{
+    top: 0;
+    right: 0;
+}
+.card-shape.arrow.second{
+    top: 100px;
+    right: 0;
+}
+.card-shape.arrow.third{
+    top: 100px;
+    right: 100px;
+}
+.card-shape.arrow.fourth{
+    top: 200px;
+    right: 100px;
+}
+/* Третья */
+.card-shape.circles.first{
+    top: 0;
+    right: 100px;
+    
+}
+.card-shape.circles.second{
+    top: 100px;
+    right: 100px;
+    
+}
+.card-shape.circles.third{
+    top: 100px;
+    right: 0;
+    
+}
+.card-shape.circles.fourth{
+    top: 200px;
+    right: 0;
+    
+}
+/* Четвертая */
+.card-shape.hexagon.first{
+    top: 0;
+    right: 0;
+}
+.card-shape.hexagon.second{
+    top: 100px;
+    right: 0;
+}
+.card-shape.hexagon.third{
+    top: 100px;
+    right: 100px;
+}
+.card-shape.hexagon.fourth{
+    top: 200px;
+    right: 100px;
+}
+/* Пятая */
+.card-shape.arrow.option.first{
+    top: 0;
+    right: 0;
+}
+.card-shape.arrow.option.second{
+    top: 100px;
+    right: 0;
+}
+.card-shape.arrow.option.third{
+    top: 200px;
+    right: 100px;
+}
+.card-shape.arrow.option.fourth{
+    top: 100px;
+    right: 100px;
+}
+/* Шестая */
+.card-shape.diamond.option.first{
+    top: 200px;
+    right: 100px;
+}
+.card-shape.diamond.option.second{
+    top: 0;
+    right: 0;
+}
+.card-shape.diamond.option.third{
+    top: 100px;
+    right: 0;
+}
+.card-shape.diamond.option.fourth{
+    top: 100px;
+    right: 100px;
+}
+.card-shape.diamond.option.five{
+    top: 200px;
+    right: 0;
+}

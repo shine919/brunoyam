@@ -1,0 +1,358 @@
+/* Глобальные стили */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Шапка сайта */
+header{
+    width: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.header-top {
+    background:white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header-title{
+   /* */ 
+}
+
+header h3 {
+    color: white;
+    margin-right: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center
+}
+header nav ul li a{
+    font-family: Closer;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    border: 1px solid #EB5D18;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: background 0.3s;
+}
+
+header nav a:hover {
+    background: rgba(255,255,255,0.2);
+    border-radius: 4px;
+}
+
+.header-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.header-right a{
+    text-decoration: none;
+    font-family: Closer;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+.phone{
+    display: flex;
+    
+    align-items: center;
+}
+.phone-svg{
+    height: 24px;
+    width: 24px;
+}
+
+
+
+/* Базовые элементы */
+h1 {
+    font-size: 88px;
+    color: #eb5d18;
+}
+
+h2 {
+    font-size: 72px;
+    color: #eb5d18;
+}
+
+p {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.section {
+    padding: 120px 0;
+}
+
+/* Страница приветствия */
+.container-start{
+    margin-top: 4%;
+}
+.section-start-main{
+    overflow: hidden;
+    position: static;
+}
+.section-start-main h1{
+    position: relative;
+    font-family: Closer;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 112px;
+    color:black;
+    width: 40%;
+    margin-left: 21%;
+    z-index: 1;
+}
+.ellipse-img{
+    width: 320px;
+    height: 320px;
+}
+.origin{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 1%;
+}
+.origin-right{
+    margin-left: 2%;
+    width: 20%;
+    display: flex;
+    gap:20px;
+    flex-direction: column;
+}
+.origin-right h3{
+    font-family: Closer;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+}
+.origin-right h3:hover{
+    color:#EB5D18;
+}
+.origin-right h3:hover~.pointer{
+    filter:invert(32%) sepia(94%) saturate(986%) hue-rotate(352deg) brightness(111%) contrast(93%);
+}
+.origin-right p{
+    font-family: Closer;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+}
+.origin.first{
+    margin-top: -17px;
+    margin-left:30%;
+}
+.origin.second{
+    margin-top: -25px;
+    margin-left:20%
+}
+.origin.third{
+    margin-top: -15px;
+    margin-left: 31.3%;
+}
+
+/* Каталог оглавление */
+.container-catalog{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.container-catalog h1{
+    color:black;
+    font-family: Closer;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: 0%;
+
+}
+/* Каталог навигация */
+.filters{
+    margin-top:30px;
+    height: 50px;
+}
+.filter{
+    width: 15%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid #111111
+}
+.filter:hover{
+    background-color: black;
+    color: white;
+    
+}
+/* Карточки курсов */
+.cards{
+    margin-top: 50px;
+    gap: 20px; 
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    text-decoration: none;
+    position: relative;
+    flex: 1 1 40%;
+    height:300px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card-category {
+    display: inline-block;
+    margin-bottom: 10px;
+    color:white;
+    padding:5px 15px;
+}
+.card-content{
+    position: relative;
+    z-index: 1;
+}
+.card-content h3 {
+    margin-bottom: 5px;
+    text-decoration: none;
+    width: 60%;
+}
+.card-content p {
+    font-family: Closer;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    width: 65%;
+    z-index: 1;
+}
+
+.card-meta {
+    position: absolute;
+    top:25px;
+    right:25px;
+    z-index: 1;
+}
+.card-meta span{
+    font-family: Closer;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    
+}
+
+
+
+/* Категории */
+.purple { background: #9b59b6; }
+.red { background: #e74c3c; }
+.blue { background: #3498db; }
+.yellow { background: #f1c40f; }
+
+/* Страница курса */
+.course-info {
+    display: flex;
+    gap: 50px;
+    padding: 40px 0;
+}
+.right-course-section{
+    display: flex;
+}
+.right-course-section img {
+    height: 500px;
+    width: 500px;
+    border-radius: 12px;
+    margin-left: 50px;
+}
+
+/* Контакты */
+.contacts.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.contacts-about{
+    width: calc(50%-25px);
+}
+.contacts-map{
+    width: calc(50%-25px);
+    display: flex;
+    margin-left:50px;
+    align-items: center;
+    justify-content: center;
+}
+.contacts-map iframe {
+    border: none;
+    width: 700px;
+    height: 700px;
+    border-radius: 8px;
+}
+
+/* Футер */
+footer {
+    background: #f5f5f5;
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+footer section {
+    padding: 0 20px;
+}
+
+footer h2 {
+    color: #eb5d18;
+    margin-bottom: 20px;
+}
+
+footer a {
+    display: block;
+    color: #333;
+    margin: 8px 0;
+    text-decoration: none;
+}
+
+footer svg {
+    width: 24px;
+    height: 24px;
+    fill: #eb5d18;
+    margin-right: 8px;
+}
+
+footer pre {
+    white-space: pre-line;
+    margin-top: 20px;
+    color: #666;
+}

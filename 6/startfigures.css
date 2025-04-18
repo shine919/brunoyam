@@ -1,0 +1,86 @@
+body{
+    
+}
+.ellipse{
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    z-index: 0;
+    
+}
+.ellipse.one{
+    top: 130px;
+    left: 1px;
+}
+.ellipse.two{
+    top: 128px;
+    left: 500px;
+}
+.ellipse.three{
+    top: 130px;
+    left: 780px;
+}
+.ellipse.four{
+    top: 130px;
+    left: 1056px;
+}
+.ellipse.five{
+    top: 130px;
+    left: 1332px;
+}
+.ellipse.six{
+    top: 130px;
+    left: 1820px;
+}
+.ellipse.seven{
+    top: 450px;
+    left: 1px;
+}
+.ellipse.eight{
+    top: 450px;
+    left: 20px;
+}
+.ellipse.nine{
+    top: 430px;
+    left: 1570px;
+}
+.ellipse.ten{
+    top: 430px;
+    left: 1847px;
+}
+.ellipse.eleven{
+    top: 730px;
+    left:1px;
+}
+.ellipse.twelve{
+    top: 730px;
+    left: 20px;
+}
+.ellipse.thirteen{
+    top:730px;
+    left: 1320px;
+}
+.ellipse.fourteen{
+    top: 730px;
+    left: 1600px;
+}
+.ellipse.fiveteen{
+    top: 730px;
+    left: 1880px;
+}
+.ellipse.sixteen{
+    top: 1010px;
+    left: 250px;
+}
+.ellipse.seventeen{
+    top: 1010px;
+    left: 527px;
+}
+.ellipse.eighteen{
+    top: 1010px;
+    left: 1600px;
+}
+.ellipse.nineteen{
+    top: 1010px;
+    left: 1877px;
+}
