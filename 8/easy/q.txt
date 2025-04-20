@@ -1,0 +1,42 @@
+flex:
+opera mobile 12
+opera 10-11.5
+ie 6-9
+gap:
+chrome 4-56
+edge 12-15
+safari 3.1 -10
+firefox 2-51
+opera 10-43
+ie 6-11
+safari ios 3.2-10.2
+samsung internet 4-6.4
+opera mobile 12-12.1
+android browser 2.1-4.4.4
+grid:
+chrome 4-56
+safari 3.1-10
+firefox 2-51
+opera 10-43
+ie 6-9
+safari ios 3.2-10.2
+samsung internet 4-5.4
+opera mini all
+opera mobile 12-12.1
+android browser 2.1-4.4.4
+subgrid:
+chrome 4-116
+edge 12-116
+safari 3.1-15.6
+firefox 2-70
+opera 10-102
+ie 6-11
+safari ios 3.2-15.8
+samsung internet 4-23
+opera mini all
+opera mobile 12-12.1
+uc browser for android 15.5
+android browser 2.1-4.4.4
+qq browser 14.9
+baidu browser 13.52
+kaios browser 2.5
