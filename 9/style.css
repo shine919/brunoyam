@@ -1,0 +1,15 @@
+.btn {
+    display: inline-block;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: red;
+    color: black;
+  
+    /*  Разница в том что при наведении  и отведении курсора будет рабоать анимация а если всунут в hover то нет*/
+    transition: background-color 300ms ease, color 300ms ease;
+  }
+  
+  .btn:hover {
+    background-color: black;
+    color: red;
+  }
